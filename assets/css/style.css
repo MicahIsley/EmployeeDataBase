@@ -1,0 +1,9 @@
+.jumbotron {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+label {
+	padding-left: 10px;
+}

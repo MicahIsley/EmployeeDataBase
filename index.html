@@ -1,0 +1,76 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Employee Data Management</title>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- CSS page -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+  				<h1>Employee Data Management</h1>
+  					<p>A Comprehensive Directory of Employee Billable Hours</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Employee Name</div>
+	            <div class="table table-bordered">
+	  				<table class="table" id="dataTable">
+					  <thead>
+					    <tr>
+					      <th>Employee Name</th>
+					      <th>Role</th>
+					      <th>Start Date</th>
+					      <th>Months Worked</th>
+					      <th>Monthly Rate($)</th>
+					      <th>Total Billed($)</th>
+					    </tr>
+					  </thead>
+					</table>
+				</div>
+			</div>	
+		</div>	
+                
+            </div>
+            <div class="container">
+	            <div class="panel panel-primary">
+					<div class="panel-heading">Data Form</div>
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Employee Name</label>
+					    <input type="employee" class="form-control" id="nameInput" placeholder="Name">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Role</label>
+					    <input type="role" class="form-control" id="roleInput" placeholder="Role">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Start Date</label>
+					    <input type="startDate" class="form-control" id="startDateInput" placeholder="Start Date">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Monthly Rate</label>
+					    <input type="rate" class="form-control" id="rateInput" placeholder="Monthly Rate">
+					  </div>
+					 
+	 			<button type="submit" class="btn btn-default" id="submitBtn">Submit</button>
+	 			</form>	
+	 		</div>	
+            </div>    
+        </div>
+  
+       
+        <!-- link to jQuery -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- link to javascript page -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script> -->
+
+        <!-- <script>"https://www.gstatic.com/firebasejs/3.9.0/firebase.js"</script> -->
+  		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script type="text/javascript" src="assets/javascript/logic.js" ></script>
+
+    </body>
+</html>
